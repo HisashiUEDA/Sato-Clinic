@@ -145,8 +145,7 @@ h2{color:var(--blue)}
 .faq-closing{color:var(--blue);font-size:37px;font-weight:800;line-height:1.33;max-width:930px;margin:120px auto 0;text-align:left}
 @media(max-width:1200px){.home-page{min-width:1200px}.site-header{width:1200px}.hero,.site-footer{min-width:1200px}.main-nav{gap:10px}.main-nav a{min-width:105px}.header-top{gap:34px}.hero h1{font-size:54px}.access-grid{padding:0 35px;grid-template-columns:520px 1fr}.access-grid>img{width:520px}.access-copy .address-line{white-space:normal}}
 
-.access-detail-link{font-size:17px;margin-top:24px;text-align:right}
-.access-detail-link a{color:var(--nav);text-decoration:underline;text-underline-offset:4px}
+.access-detail-link{margin-top:24px;text-align:center;padding-left:32px}
 .detail-access .detail-content{max-width:1080px}
 .detail-access .detail-topbar{margin-bottom:55px}
 .detail-access .access-intro{font-size:25px;line-height:1.5;margin-bottom:55px}
@@ -345,7 +344,6 @@ h2{color:var(--blue)}
   .access-copy p, .access-copy ul, .access-copy .address-line { font-size: 17px; line-height: 1.8; }
   .access-copy .address-line { white-space: normal; }
   .access-copy .access-small { font-size: 14px; }
-  .access-detail-link a { display: inline-block; padding: 10px 0; }
   .faq-preview-inner h3 { font-size: 21px; margin-bottom: 24px; }
   .faq-item { font-size: 17px; margin-bottom: 28px; }
   .faq-item p { line-height: 1.8; }
