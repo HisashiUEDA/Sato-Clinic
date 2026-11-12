@@ -11,11 +11,18 @@ about.html       当院について詳細
 faq.html         よくあるご質問詳細
 access.html      診療時間・所在地
 css/style.css    共通スタイル
+js/scroll-reveal.js  スクロール時のフェードイン
+js/gallery-carousel.js  スマートフォン用写真カルーセル
 assets/          支給画像素材
 
 【仕様】
-- HTML/CSSのみ。JavaScript、フレームワークは不使用。
-- PC向け固定幅デザイン。レスポンシブ対応は対象外。
+- HTML/CSSとJavaScriptを使用。フレームワークは不使用。
+- 各セクションは画面に入ると一度だけ下からフェードインします。
+  動きを減らす設定、JavaScript無効時、非対応ブラウザでは通常表示します。
+- スマートフォン・タブレット・PCに対応するレスポンシブデザイン。
+- 院内写真（photoframe）は767px以下で横スワイプと位置表示ドットに対応。
+  PCでは3列グリッド表示。ドットのクリックと左右矢印キーでも操作可能。
+- 診療時間表は狭い画面では表の領域内で横スクロールできます。
 - Google Fonts（Noto Sans JP）を読み込み。フォントをオンラインで
   読み込めない場合はシステムのサンセリフフォントに切り替わります。
 - 全ページに meta robots="noindex, nofollow" を設定。
