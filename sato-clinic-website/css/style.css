@@ -100,6 +100,7 @@ h2{color:var(--blue)}
 .bottom-info{padding:120px 0 90px}
 .bottom-info .hours-wrap{margin-bottom:110px}
 .bottom-info .section-heading{margin-bottom:50px}
+.back-to-top{max-width:985px;margin:45px auto 0}
 .subjects{max-width:990px;margin:auto;padding:0;display:flex;flex-wrap:wrap;justify-content:space-evenly;gap:20px 90px;font-size:31px;line-height:1.7}
 .subjects li:nth-child(n+4){flex-basis:100%;text-align:center;list-style-position:inside}
 .bottom-message{font-size:44px;color:var(--blue);font-weight:800;text-align:center;margin:75px auto 0;line-height:1.45}
@@ -145,7 +146,7 @@ h2{color:var(--blue)}
 .faq-closing{color:var(--blue);font-size:37px;font-weight:800;line-height:1.33;max-width:930px;margin:120px auto 0;text-align:left}
 @media(max-width:1200px){.home-page{min-width:1200px}.site-header{width:1200px}.hero,.site-footer{min-width:1200px}.main-nav{gap:10px}.main-nav a{min-width:105px}.header-top{gap:34px}.hero h1{font-size:54px}.access-grid{padding:0 35px;grid-template-columns:520px 1fr}.access-grid>img{width:520px}.access-copy .address-line{white-space:normal}}
 
-.access-detail-link{margin-top:24px;text-align:center;padding-left:32px}
+.access-detail-link{max-width:985px;margin:24px auto 0;text-align:right}
 .detail-access .detail-content{max-width:1080px}
 .detail-access .detail-topbar{margin-bottom:55px}
 .detail-access .access-intro{font-size:25px;line-height:1.5;margin-bottom:55px}
